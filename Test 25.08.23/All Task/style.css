@@ -1,0 +1,41 @@
+img {
+  height: 25%;
+  width: 20%;
+}
+
+#shop {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#show-images {
+  border: 2px solid rgb(14, 77, 16);
+}
+
+#hover-effect {
+  opacity: 0.5;
+}
+#hover-effect:hover {
+  opacity: 1;
+}
+
+#toggle-btn {
+  background-color: rgb(24, 117, 160);
+  height: 40px;
+  border-style: none;
+  width: 150px;
+}
+
+#box-5 {
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+#counter {
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+.keyboard-event {
+  display: flex;
+  flex-direction: row;
+}
